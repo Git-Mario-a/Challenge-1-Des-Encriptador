@@ -1,0 +1,45 @@
+/*Aquí inicia el CSS para home*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+.caja h1{
+    font-size: 50px;
+}
+header {
+    background-color: #609ED4;
+    padding: 20px 0;
+    color: rgb(34, 97, 6);
+}
+.caja-tex{
+    width: 577px;
+    left: 240px;
+    top: 168px;
+    color: #0A3871;
+}
+
+
+.input-padron{
+    margin: 30px 100px 50px;
+    padding: 10px 25px;
+    width: 25%;
+}
+
+.fondo{
+    background: linear-gradient(#609ED4, #052051);
+}
+
+footer{
+    text-align: center;
+    background: #000000;
+    padding:40px;
+}
+.pie-pag{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+}
