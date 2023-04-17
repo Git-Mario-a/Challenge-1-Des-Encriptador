@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"> 
+        <title>Challenge Desafío 1</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js" type="text/javascript" defer></script>
+    </head>
+
+    <body>
+        <div class="container">
+          <h1>Encriptador y desencriptador</h1>
+          <label for="input">Ingresa una palabra:</label>
+          <input type="text" id="input" name="input">
+          <br>
+          <button onclick="accion('encriptar')">Encriptar</button>
+          <button onclick="accion('desencriptar')">Desencriptar</button>
+          <br>
+          <label for="output">Resultado:</label>
+          <input type="text" id="output" name="output" readonly>
+          <br>
+          <button onclick="copyToClipboard()">Copiar resultado</button>
+        </div>
+    </body>
+</html>
