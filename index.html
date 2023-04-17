@@ -6,22 +6,38 @@
         <title>Challenge Desafío 1</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
         <script src="index.js" type="text/javascript" defer></script>
     </head>
 
     <body>
-        <div class="container">
-          <h1>Encriptador y desencriptador</h1>
-          <label for="input">Ingresa una palabra:</label>
-          <input type="text" id="input" name="input">
-          <br>
-          <button onclick="accion('encriptar')">Encriptar</button>
-          <button onclick="accion('desencriptar')">Desencriptar</button>
-          <br>
-          <label for="output">Resultado:</label>
-          <input type="text" id="output" name="output" readonly>
-          <br>
-          <button onclick="copyToClipboard()">Copiar resultado</button>
-        </div>
+        <header>
+            <div class="caja">
+                <h1>Encriptador y Desencriptador</h1>
+            </div>
+        </header>
+
+        <main class="fondo">
+            <section class="caja-tex">
+                <h1>Encriptador y desencriptador</h1>
+                <label for="input"></label>
+                <textarea cols="100" rows="1" id="input" class="input-padron" required placeholder="Ingresa una texto"></textarea>
+                
+                <div >
+                    <button class="input-padron" onclick="accion('encriptar')">Encriptar</button>
+                    <button class="input-padron" onclick="accion('desencriptar')">Desencriptar</button>
+                    
+                    <label for="output">Resultado:</label>
+                    <input class="input-padron" type="text" id="output" name="output" readonly>
+                    
+                    <button onclick="copyToClipboard()">Copiar resultado</button>
+                </div>
+                
+
+            </section>
+        </main>
+        <footer>
+            <p class="pie-pag">aun por rellenar</p>
+        </footer>
     </body>
 </html>

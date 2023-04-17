@@ -16,15 +16,15 @@ header {
     color: rgb(34, 97, 6);
 }
 .caja-tex{
-    width: 577px;
+    width: 570px;
     left: 240px;
     top: 168px;
-    color: #0A3871;
+    color: #03152b;
 }
 
 
 .input-padron{
-    margin: 30px 100px 50px;
+    margin: 10px 10px 10px;
     padding: 10px 25px;
     width: 25%;
 }
