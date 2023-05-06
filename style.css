@@ -1,45 +1,85 @@
-/*Aquí inicia el CSS para home*/
-body{
+
+/* Aquí inicia el CSS para home */
+body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
 }
-.caja{
-    width: 940px;
+    
+.caja {
+    max-width: 940px;
     position: relative;
     margin: 0 auto;
 }
-.caja h1{
+    
+.caja h1 {
     font-size: 50px;
 }
+    
 header {
     background-color: #609ED4;
     padding: 20px 0;
-    color: rgb(34, 97, 6);
+    color: #fff;
+    text-align: center;
 }
-.caja-tex{
-    width: 570px;
-    left: 240px;
-    top: 168px;
+    
+.caja-tex {
+    background: linear-gradient( #055148,#a7d460);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(216, 235, 9);
+    max-width: 570px;
+    margin: 40px auto;
+    position: relative;
     color: #03152b;
 }
+    
+.caja-tex h1 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
 
-
-.input-padron{
-    margin: 10px 10px 10px;
+.texto-r{
+    color: rgb(255, 255, 255);
+}
+    
+.boton {
+    background-color: #609ED4;
+    border: none;
+    color: white;
     padding: 10px 25px;
-    width: 25%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-.fondo{
+    
+.input-padron {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+    
+.fondo {
     background: linear-gradient(#609ED4, #052051);
+    padding: 40px 0;
 }
-
-footer{
+    
+footer {
     text-align: center;
     background: #000000;
-    padding:40px;
+    padding: 40px;
 }
-.pie-pag{
-    color:#FFFFFF;
+    
+.pie-pag {
+    color: #FFFFFF;
     font-size: 13px;
-    margin:20px;
+    margin: 20px;
 }
